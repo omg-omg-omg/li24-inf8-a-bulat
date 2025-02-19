@@ -3,7 +3,7 @@ class Pet:
 		self.name = name
 		self.animal_type = animal_type
 		self.age = age
-	def __str__(self):
+	def __str__():
 		return "Pet"
 	def set_name(self, name):
 		self.name = name
