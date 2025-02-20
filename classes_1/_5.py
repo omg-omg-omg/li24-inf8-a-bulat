@@ -41,7 +41,7 @@ class Menu:
             print(i.name + str("." * (20 - len(i.name) - len(str(i.get_price())))) + str(i.get_price()))
 
 
-ingredient_potato = Ingredient("Картошка", "Овощ", 52)
+ingredient_potato = Ingredient("Картошка", "Съедобное", 52)
 recipe_bulba = Recipe("Бульба", [ingredient_potato], [2])
 _1 = Menu([recipe_bulba])
 _1.show_menu()
